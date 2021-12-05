@@ -1,4 +1,4 @@
-.header__link_land-link {
+.header__land-link {
     font-family: Inter;
     font-weight: 400;
     font-size: 24px;
@@ -7,13 +7,13 @@
     padding-bottom: 4px;
   }
   
-  .header__link_land-link:last-of-type {
+  .header__land-link:last-of-type {
       margin-right: 0;
       text-decoration: none;
   }
   
   @media screen and (max-width: 720px) {
-    .header__link_land-link {
+    .header__land-link {
       font-size: 18px;
       line-height: 20px;
       padding-bottom: 6px;
