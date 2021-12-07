@@ -2,6 +2,7 @@
     display: grid;
     box-sizing: border-box;
     grid-row-gap: 92px;
+    margin: 0 auto;
   }
 
   @media screen and (max-width: 984px) {
