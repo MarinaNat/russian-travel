@@ -30,3 +30,5 @@
 Картинка-ссылка на блог с описанием путешествия по России.
 блок ## footer:
 Блок с сылками на сервисы Яндекс
+
+https://marinanat.github.io/russian-travel/index.html 
