@@ -5,13 +5,20 @@
     line-height: 28px;
     margin-right: 18px;
     padding-bottom: 4px;
+    text-decoration: none;
+      -webkit-transition: opacity 0.3s ease-in-out;
+      -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
   }
   
-  .header__land-link:last-of-type {
-      margin-right: 0;
-      text-decoration: none;
+.header__land-link:last-of-type {
+    margin-right: 0;
   }
-  
+
+  .header__land-link:hover {
+    opacity: .8;
+  }
+
   @media screen and (max-width: 720px) {
     .header__land-link {
       font-size: 18px;

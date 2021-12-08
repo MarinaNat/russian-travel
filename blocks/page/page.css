@@ -7,24 +7,21 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 28px 48px 24px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
   
- /** {border: 1px solid red}*/
+* {border: 1px solid red}
 
  @media screen and (max-width: 1140px) {
   .page {
     padding-left: 0;
     padding-right: 0;
   }
-  
 }
 
 @media screen and (max-width: 720px) {
   .page {
-    padding-left: 0;
-    padding-right: 0;
     padding-top: 16px;
   }
-  
 }
